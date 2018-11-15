@@ -1,1 +1,7 @@
-{"index.js":"function copyMachine(arr, num) {\n  let newArr = [];//esto está vació\n  while (num >= 1) {\n  newArr = [[...arr], ...newArr]; //en arr recibe la info del usuario, newArray copia el contenido de arr\n    num--;\n  }\n  \n  return newArr;\n}\n\n\n// change code here to test different cases:\nconsole.log(copyMachine([1, 2, 3], 5));"}
+function copyMachine(arr, num) {  
+    let newArr = [];//esto está vació\n 
+     while (num >= 1) { 
+         newArr = [[...arr], ...newArr]; //en arr recibe la info del usuario, newArray copia el contenido de arr\n    
+         num--; 
+         return newArr;
+         console.log(copyMachine([1, 2, 3], 5));
